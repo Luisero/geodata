@@ -3,6 +3,6 @@ from django.urls import path
 
 urlpatterns = [
     path('', views.index_africa, name='index-africa'),
-    path('kenya', views.kenya, name='kenya'),
+    path('quenia', views.quenia, name='quenia'),
     path('angola', views.angola, name='angola')
 ]

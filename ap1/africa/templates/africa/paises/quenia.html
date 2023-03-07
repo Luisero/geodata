@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Quenia</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Quenia🇰🇪</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'index-africa' %}">Home</a>
+              </li>
+             
+          
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="accordion-container d-flex justify-content-center">
+          <div class="accordion w-50" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Geral
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Quénia (português europeu) ou Quênia (português brasileiro) (em suaíli e inglês Kenya), oficialmente República do Quénia, é um país da África Oriental, limitado a norte pelo Sudão do Sul e pela Etiópia, a leste pela Somália e pelo oceano Índico, a sul pela Tanzânia e a oeste pelo Uganda. A capital e cidade mais populosa é Nairobi. O país situa-se na linha do equador. A área do Quênia abrange 581 309 km² e o país tem uma população de cerca de 45 milhões de habitantes, de acordo com estimativas para 2014.[5] Seu nome origina-se do Monte Quênia, seu ponto geográfico mais elevado e a segunda montanha mais alta da África.
+
+O país tem um clima quente e úmido ao longo de sua costa no Oceano Índico, com fauna rica em savana e gramados do interior para a capital. Nairóbi tem um clima frio que vai decrescendo ao ir se aproximando do Monte Quênia, que tem três picos permanentemente cobertos de neve. Mais para o interior, há um clima quente e úmido em torno do Lago Vitória, e áreas florestais e montanhosas de clima temperado na região oeste. As regiões do nordeste ao longo da fronteira com a Somália e Etiópia são regiões áridas e semiáridas com paisagens quase desérticas. O Lago Vitória, o segundo maior lago de água doce do mundo e maior lago tropical do mundo, situa-se a sudoeste do país e é compartilhado com a Uganda e Tanzânia. O Quênia é famoso por seus safáris e diversas reservas de vida selvagem e parques nacionais, como o Parque Nacional de Tsavo-Oeste, o Masai Mara, o Lago Nakuru e o Parque Nacional Aberdares. Existem vários sítios de patrimônio mundial como Lamu, e praias de renome mundial, tais como Kilifi, onde são realizadas competições de iatismo internacional a cada ano.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 Geografia
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  O Quênia está situado na África oriental, tendo fronteiras a leste com a Somália, a norte com a Etiópia e com o Sudão do Sul, a oeste com Uganda, a sudoeste com a Tanzânia e a sudeste é banhado pelo Oceano Índico.
+
+                  A parte ocidental faz parte do sistema de depressões do Vale do Rift, que deu origem aos grandes lagos africanos, e essa zona do país é banhada por dois dos maiores: o lago Vitória e o lago Turkana. As falhas do Rift são rodeadas por montanhas, algumas das quais de origem vulcânica, que atingem o ponto mais alto no centro do país, no Monte Quénia, com 5 199 m. A leste e a sul, o relevo suaviza-se, em especial junto à fronteira da Somália, onde se estende uma extensão significativa de planície.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Rali do Quenia
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Rali Safari (ou Rally Safari) é considerado por muitos como o mais difícil rali do mundo. Foi disputado pela primeira vez entre 27 de maio e 1º de junho de 1953, como o East African Coronation Safari no Quênia, Uganda e Tanzânia, em celebração à coroação da Rainha Isabel II. Em 1960 foi designado de East African Safari Rally e manteve o nome até 1974, quando passou para Rali Safari.
+
+O evento fez parte do calendário do WRC por muitos anos, até ser excluído devido à falta de fundos e de organização em 2003. O governo queniano está a tentar trazer de volta o rali. Desde 2003, que o evento faz parte do Campeonato Africano de Rali organizado pela FIA. É atualmente chamado de KCB Safari Rally, desde que é patrocinado por Kenya Commercial Bank (KCB).
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>

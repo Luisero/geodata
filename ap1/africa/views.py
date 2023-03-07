@@ -3,10 +3,10 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index_africa(request):
-    return HttpResponse('index')
+    return render(request, 'africa/index.html')
 
-def kenya(request):
-    return HttpResponse('kenya')
+def quenia(request):
+    return render(request,'africa/paises/quenia.html')
 
 def angola(request):
-    return  HttpResponse('angola')
+    return  render(request, 'africa/paises/angola.html')
