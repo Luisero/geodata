@@ -8,10 +8,10 @@ def index_america(request):
 
 
 def brasil(request):
-    return HttpResponse('brasil')
+    return render(request, 'america_do_sul/paises/brasil.html')
 
 def chile(request):
-    return HttpResponse('chile')
+    return render(request, 'america_do_sul/paises/chile.html')
 
 def uruguai(request):
-    return HttpResponse('uruguay')
+     return render(request, 'america_do_sul/paises/uruguai.html')

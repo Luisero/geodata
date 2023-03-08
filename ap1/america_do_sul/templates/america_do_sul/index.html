@@ -8,7 +8,26 @@
 
     <title>Document</title>
 </head>
-<body>
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Geodata </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'index-america' %}">Home</a>
+              </li>
+             <li class="nav-item"><a href="" class="nav-link">Continente Sul-americano</a></li>
+          
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="espacador" style="height: 10vh;"></div>
     <div class="country-list-container d-flex justify-content-center" >
         <ul class="list-group w-25 center">
             <li class="list-group-item "><a href="{% url 'brasil' %}" class="link-primary">Brasil</a></li>
